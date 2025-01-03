@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # app_name . file name
     path("challenges/", include ("challenges.urls"))
+
 ]
